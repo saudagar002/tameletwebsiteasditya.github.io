@@ -1,0 +1,40 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row; /* Display content in a row */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space between text and image */
+  }
+  
+  .about-text {
+    flex: 1; /* Take remaining space */
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    flex: 1; /* Take remaining space */
+    margin-left: 4cm;
+  }
+  
+  img {
+    width: 100%; /* Make the image fill its container */
+    border-radius: 8px; /* Add rounded corners to the image */
+  }
+  
+  /* You can add more styles based on your design preferences */
+  

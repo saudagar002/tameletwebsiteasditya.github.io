@@ -1,0 +1,52 @@
+/* Services.css */
+
+.services-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 3cm;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.service-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.service-image {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.service-details {
+  flex: 2;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+
+
+
+
